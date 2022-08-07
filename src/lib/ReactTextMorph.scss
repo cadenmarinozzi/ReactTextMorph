@@ -1,0 +1,53 @@
+#filters {
+    width: 0;
+    height: 0;
+}
+
+.morph-container {
+    --morph-text-color: white;
+
+    filter: url(#threshold) blur(0.6px);
+
+    .text {
+        position: absolute;
+    }
+
+    .morph-text {
+        color: transparent;
+        position: absolute;
+    }
+
+    .text-morphing {
+        color: transparent;
+        animation: morph-out 2s 1 ease-in-out;
+    }
+
+    .morph-text-morphing {
+        color: var(--morph-text-color);
+        
+        animation: morph-in 2s 1 ease-in-out;
+        animation-delay: -1s;
+    }
+}
+
+@keyframes morph-out {
+    0% { 
+        color: var(--morph-text-color);
+        filter: blur(0px); opacity: 1; 
+    }     
+
+    100% { 
+        color: transparent;
+        filter: blur(1em); opacity: 0;
+    }        
+}
+
+@keyframes morph-in {
+    0% { 
+        filter: blur(1em); opacity: 0; 
+    }      
+
+    100% { 
+        filter: blur(0px); opacity: 1; 
+    }        
+}
