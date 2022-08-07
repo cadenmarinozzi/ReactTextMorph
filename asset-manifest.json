@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReactTextMorph/static/css/main.18b3cdc3.css",
+    "main.js": "/ReactTextMorph/static/js/main.aabaa988.js",
+    "index.html": "/ReactTextMorph/index.html",
+    "main.18b3cdc3.css.map": "/ReactTextMorph/static/css/main.18b3cdc3.css.map",
+    "main.aabaa988.js.map": "/ReactTextMorph/static/js/main.aabaa988.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18b3cdc3.css",
+    "static/js/main.aabaa988.js"
+  ]
+}
