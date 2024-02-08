@@ -76,7 +76,7 @@ Other props that are passed to the underlying Element.
 You can manually build ReactTextMorph by following the instructions below:
 
 1. Make sure you have npm and node installed.
-2. Clone the repository to your local machine `git clone https://github.com/nekumelon/ReactTextMorph.git`
+2. Clone the repository to your local machine `git clone https://github.com/cadenmarinozzi/ReactTextMorph.git`
 3. Cd into the cloned directory `cd ReactTextMorph` and run `npm install`
 4. Run `npm build` to build the module.
 
